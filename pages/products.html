@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - BOQO</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="../index.html">
+                <i class="bi bi-leaf me-2"></i>BOQO
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="technology.html">Technology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 fw-bold mb-3">Sustainable Packaging Solutions</h1>
+                    <p class="lead">Discover BOQO's revolutionary biodegradable bottles and eco-friendly tableware products</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories Filter -->
+    <section class="py-4 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-outline-success active filter-btn" data-filter="all">All Products</button>
+                        <button type="button" class="btn btn-outline-success filter-btn" data-filter="bottles">Bottles</button>
+                        <button type="button" class="btn btn-outline-success filter-btn" data-filter="tableware">Tableware</button>
+                        <button type="button" class="btn btn-outline-success filter-btn" data-filter="custom">Custom Solutions</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2 class="fw-bold mb-3">Featured Products</h2>
+                    <p class="lead text-muted">Our flagship biodegradable packaging solutions leading the plastic-free revolution</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Product 1 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="bottles">
+                    <div class="card product-card h-100">
+                        <img src="../images/product-1.jpg" class="card-img-top product-image" alt="BOQO Biodegradable Water Bottle">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <span class="badge bg-success">Bottles</span>
+                                <span class="text-success fw-bold fs-5">₹15-25</span>
+                            </div>
+                            <h5 class="card-title fw-bold">Biodegradable Water Bottles</h5>
+                            <p class="card-text text-muted flex-grow-1">Premium 500ml-1L water bottles made from 100% biodegradable bagasse biopolymers. Perfect for beverages, juices, and daily hydration needs.</p>
+                            <ul class="list-unstyled mb-3">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>100% Biodegradable</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>FSSAI Certified</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>120-180 Day Decomposition</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Leak-Proof Design</li>
+                            </ul>
+                            <div class="d-grid gap-2">
+                                <a href="#" class="btn btn-success">Get Quote</a>
+                                <a href="#" class="btn btn-outline-success">Sample Request</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="tableware">
+                    <div class="card product-card h-100">
+                        <img src="../images/product-2.jpg" class="card-img-top product-image" alt="BOQO Eco Tableware">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <span class="badge bg-success">Tableware</span>
+                                <span class="text-success fw-bold fs-5">₹8-20</span>
+                            </div>
+                            <h5 class="card-title fw-bold">Biodegradable Tableware Set</h5>
+                            <p class="card-text text-muted flex-grow-1">Complete eco-friendly tableware including plates, bowls, and cups made from sustainable bagasse materials. Perfect for events and restaurants.</p>
+                            <ul class="list-unstyled mb-3">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Compostable Material</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Heat Resistant</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Food Grade Safe</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Microwave Safe</li>
+                            </ul>
+                            <div class="d-grid gap-2">
+                                <a href="#" class="btn btn-success">Get Quote</a>
+                                <a href="#" class="btn btn-outline-success">Bulk Orders</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="custom">
+                    <div class="card product-card h-100">
+                        <img src="../images/product-3.jpg" class="card-img-top product-image" alt="BOQO Custom Solutions">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <span class="badge bg-info">Custom</span>
+                                <span class="text-success fw-bold fs-5">Quote</span>
+                            </div>
+                            <h5 class="card-title fw-bold">Custom Packaging Solutions</h5>
+                            <p class="card-text text-muted flex-grow-1">Tailored biodegradable packaging solutions with custom branding, sizes, and designs to meet your specific business requirements.</p>
+                            <ul class="list-unstyled mb-3">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Custom Branding</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Any Size & Shape</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Private Labeling</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Design Consultation</li>
+                            </ul>
+                            <div class="d-grid gap-2">
+                                <a href="#" class="btn btn-success">Get Quote</a>
+                                <a href="#" class="btn btn-outline-success">Consultation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="bottles">
+                    <div class="card product-card h-100">
+                        <img src="../images/product-4.jpg" class="card-img-top product-image" alt="BOQO Sports Bottles">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <span class="badge bg-success">Bottles</span>
+                                <span class="text-success fw-bold fs-5">₹25-35</span>
+                            </div>
+                            <h5 class="card-title fw-bold">Sports & Fitness Bottles</h5>
+                            <p class="card-text text-muted flex-grow-1">Durable biodegradable bottles designed for active lifestyles with ergonomic grip and enhanced durability for sports and fitness activities.</p>
+                            <ul class="list-unstyled mb-3">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Ergonomic Design</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Enhanced Durability</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Sweat-Resistant</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>750ml & 1L Sizes</li>
+                            </ul>
+                            <div class="d-grid gap-2">
+                                <a href="#" class="btn btn-success">Get Quote</a>
+                                <a href="#" class="btn btn-outline-success">Team Orders</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="tableware">
+                    <div class="card product-card h-100">
+                        <img src="../images/product-5.jpg" class="card-img-top product-image" alt="BOQO Food Containers">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <span class="badge bg-success">Tableware</span>
+                                <span class="text-success fw-bold fs-5">₹12-30</span>
+                            </div>
+                            <h5 class="card-title fw-bold">Food Storage Containers</h5>
+                            <p class="card-text text-muted flex-grow-1">Premium biodegradable food containers with secure lids, perfect for takeaways, meal prep, and food storage applications.</p>
+                            <ul class="list-unstyled mb-3">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Leak-Proof Lids</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Stackable Design</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Freezer Safe</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Multiple Sizes</li>
+                            </ul>
+                            <div class="d-grid gap-2">
+                                <a href="#" class="btn btn-success">Get Quote</a>
+                                <a href="#" class="btn btn-outline-success">Restaurant Orders</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="custom">
+                    <div class="card product-card h-100">
+                        <img src="../images/product-6.jpg" class="card-img-top product-image" alt="BOQO Corporate Solutions">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <span class="badge bg-info">Custom</span>
+                                <span class="text-success fw-bold fs-5">Quote</span>
+                            </div>
+                            <h5 class="card-title fw-bold">Corporate Partnership Program</h5>
+                            <p class="card-text text-muted flex-grow-1">Comprehensive sustainability solutions for corporations including branded packaging, volume discounts, and CSR partnership opportunities.</p>
+                            <ul class="list-unstyled mb-3">
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Volume Discounts</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>CSR Partnership</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Sustainability Reports</li>
+                                <li><i class="bi bi-check-circle text-success me-2"></i>Dedicated Support</li>
+                            </ul>
+                            <div class="d-grid gap-2">
+                                <a href="#" class="btn btn-success">Partnership Inquiry</a>
+                                <a href="#" class="btn btn-outline-success">Schedule Meeting</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Comparison -->
+    <section class="bg-light section-padding">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2 class="fw-bold mb-3">Product Comparison</h2>
+                    <p class="lead text-muted">Compare BOQO's sustainable packaging solutions</p>
+                </div>
+            </div>
+            
+            <div class="table-responsive">
+                <table class="table table-hover bg-white rounded shadow-sm">
+                    <thead class="table-success">
+                        <tr>
+                            <th scope="col">Product Feature</th>
+                            <th scope="col" class="text-center">Water Bottles</th>
+                            <th scope="col" class="text-center">Tableware</th>
+                            <th scope="col" class="text-center">Food Containers</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Material</strong></td>
+                            <td class="text-center">Bagasse Biopolymer</td>
+                            <td class="text-center">Bagasse Fiber</td>
+                            <td class="text-center">Bagasse Composite</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Biodegradation Time</strong></td>
+                            <td class="text-center">120-180 days</td>
+                            <td class="text-center">90-120 days</td>
+                            <td class="text-center">120-150 days</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Temperature Resistance</strong></td>
+                            <td class="text-center">-10°C to 70°C</td>
+                            <td class="text-center">-20°C to 100°C</td>
+                            <td class="text-center">-18°C to 80°C</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Food Grade Certified</strong></td>
+                            <td class="text-center"><i class="bi bi-check-circle text-success"></i></td>
+                            <td class="text-center"><i class="bi bi-check-circle text-success"></i></td>
+                            <td class="text-center"><i class="bi bi-check-circle text-success"></i></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Microwave Safe</strong></td>
+                            <td class="text-center"><i class="bi bi-x-circle text-danger"></i></td>
+                            <td class="text-center"><i class="bi bi-check-circle text-success"></i></td>
+                            <td class="text-center"><i class="bi bi-check-circle text-success"></i></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Starting Price</strong></td>
+                            <td class="text-center"><strong>₹15/unit</strong></td>
+                            <td class="text-center"><strong>₹8/unit</strong></td>
+                            <td class="text-center"><strong>₹12/unit</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2 class="fw-bold mb-3">What Our Customers Say</h2>
+                    <p class="lead text-muted">Real feedback from businesses using our products</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="mb-4">"The Enterprise Management Suite has transformed how we handle our daily operations. The analytics features are incredibly powerful."</p>
+                            <div>
+                                <strong>Sarah Wilson</strong><br>
+                                <small class="text-muted">CEO, TechCorp Inc.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="mb-4">"Outstanding hardware quality and excellent customer support. The professional workstations exceed our expectations."</p>
+                            <div>
+                                <strong>Mike Davis</strong><br>
+                                <small class="text-muted">IT Director, Creative Studios</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center p-4">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="mb-4">"The digital transformation package helped us modernize our entire infrastructure seamlessly. Highly recommended!"</p>
+                            <div>
+                                <strong>Lisa Chen</strong><br>
+                                <small class="text-muted">Operations Manager, Global Logistics</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-primary text-white section-padding">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="fw-bold mb-3">Ready to Find Your Perfect Product?</h2>
+                    <p class="lead mb-4">Contact our experts to discuss your requirements and find the ideal solution for your business.</p>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <a href="contact.html" class="btn btn-light btn-lg">Contact Sales</a>
+                        <a href="#" class="btn btn-outline-light btn-lg">Request Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3">Your Company</h5>
+                    <p class="text-muted">Providing exceptional products and services to help businesses grow and succeed.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-white"><i class="bi bi-facebook fs-5"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-twitter fs-5"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-linkedin fs-5"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-instagram fs-5"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html" class="text-muted text-decoration-none">Home</a></li>
+                        <li><a href="about.html" class="text-muted text-decoration-none">About</a></li>
+                        <li><a href="products.html" class="text-muted text-decoration-none">Products</a></li>
+                        <li><a href="services.html" class="text-muted text-decoration-none">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6 class="fw-bold mb-3">Contact Info</h6>
+                    <ul class="list-unstyled text-muted">
+                        <li><i class="bi bi-geo-alt me-2"></i>123 Business Street, City, State 12345</li>
+                        <li><i class="bi bi-phone me-2"></i>(555) 123-4567</li>
+                        <li><i class="bi bi-envelope me-2"></i>info@yourcompany.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-3">Newsletter</h6>
+                    <p class="text-muted small">Subscribe to get updates on our latest products and services.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="text-muted small mb-0">&copy; 2025 Your Company. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="../js/main.js"></script>
+</body>
+</html>
